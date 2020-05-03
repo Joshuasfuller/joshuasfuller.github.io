@@ -1,11 +1,12 @@
 @keyframes sky {
-  from {background-color: #675ed2;}
-  to {background-color: #d45959;}
+  0% {background-color: #6761af;}
+  70%:{background-color: #9e5252;}
+  100% {background-color: #deacac;}
 }
 body{
 	//background-color: #E4EDF7;
 	animation-name: sky;
-        animation-duration: 8s;
+        animation-duration: 12s;
         animation-iteration-count: infinite;
         animation-direction:alternate;
 	background-image:url('Skyline.png');
