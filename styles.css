@@ -1,6 +1,8 @@
 body{
 	//background-color: #E4EDF7;
 	background-image:url('Skyline.png');
+	background-attachment: fixed;
+	background-size: cover;
 }
 h1{
 	color: #004D27;
