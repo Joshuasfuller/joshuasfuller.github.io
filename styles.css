@@ -1,5 +1,13 @@
+@keyframes sky {
+  from {background-color: #675ed2;}
+  to {background-color: #d45959;}
+}
 body{
 	//background-color: #E4EDF7;
+	animation-name: sky;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+        animation-direction:alternate;
 	background-image:url('Skyline.png');
 	background-attachment: fixed;
 	background-size: cover;
@@ -30,5 +38,3 @@ a{
 a:hover{
 	color:purple;
 }
-
-
